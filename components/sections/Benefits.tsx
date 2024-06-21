@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Benefits = () => {
   return (
-    <div id="benefits" className="container py-20">
+    <section id="benefits" className="container py-20">
       <div className="flex flex-col md:flex-row items-center justify-between mb-16 md:mb-10 lg:mb-0">
         <div className="w-full lg:w-1/2 flex justify-center md:justify-start">
           <Image
@@ -70,7 +70,7 @@ const Benefits = () => {
           <h1 className="text-3xl lg:text-6xl font-semibold mt-6 md:mt-0 mb-4 xl:mb-8">
             Maximize Opportunities, Minimize Risks!
           </h1>
-          <div className="text-base xl:text-xl w-[90%]">
+          <div className="text-basev xl:text-xl w-[90%]">
             <p>
               Leveraging the latest A.I. capabilities, your underwriting
               automation will identify opportunities and risks that even the
@@ -79,7 +79,7 @@ const Benefits = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

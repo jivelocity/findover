@@ -2,7 +2,7 @@ import { ArrowRight, Calendar, Loader } from "lucide-react";
 
 const Pricing = () => {
   return (
-    <div id="pricing" className="bg-[#3C65FB] py-20">
+    <section id="pricing" className="bg-[#3C65FB] py-20">
       <div className="container">
         <div className="max-w-7xl w-full ">
           <div className="flex w-full flex-col items-center text-white">
@@ -145,7 +145,7 @@ const Pricing = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

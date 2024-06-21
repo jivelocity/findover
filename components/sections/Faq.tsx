@@ -30,7 +30,7 @@ const Faq = () => {
   ];
 
   return (
-    <div
+    <section
       id="faq"
       className="container max-w-7xl flex flex-col justify-center w-full py-24"
     >
@@ -62,7 +62,7 @@ const Faq = () => {
           </AccordionItem>
         ))}
       </Accordion>
-    </div>
+    </section>
   );
 };
 
