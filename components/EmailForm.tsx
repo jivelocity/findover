@@ -33,16 +33,16 @@ export const EmailForm: React.FC<EmailFormProps> = ({
     //We can save the email to a database here
     //using the values.email
     //but for now, I don't know how to do that
-
     console.log(values);
+
+    // Track the event
+    posthog.capture("Signed Up", { email: values.email });
+    posthog.identify(values.email);
 
     // Simulate a delay to show the success message
     setTimeout(() => {
       setIsSubmitted(true);
     }, 800);
-
-    // Track the event
-    posthog.capture("Email submitted");
   }
 
   return (
