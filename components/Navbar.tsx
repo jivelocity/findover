@@ -29,7 +29,7 @@ const Navbar = () => {
             onClick={() => onGotoElement("hero")}
           />
           <nav className="hidden lg:block">
-            <ul className="flex justify-center space-x-2 items-center">
+            <div className="flex justify-center space-x-2 items-center">
               {menus.map((item, idx) => (
                 <Button
                   onClick={() => onGotoElement(item.href)}
@@ -40,15 +40,14 @@ const Navbar = () => {
                   {item.title}
                 </Button>
               ))}
-              <li>
-                <Button
-                  onClick={() => onGotoElement("download")}
-                  className="bg-[#4F75FB] text-white hover:bg-white hover:text-black font-semibold"
-                >
-                  Get Started
-                </Button>
-              </li>
-            </ul>
+
+              <Button
+                onClick={() => onGotoElement("download")}
+                className="bg-[#3C65FB] text-white hover:bg-white hover:text-black font-semibold"
+              >
+                Get Started
+              </Button>
+            </div>
           </nav>
         </div>
       ) : (
@@ -58,7 +57,7 @@ const Navbar = () => {
             src="/logo.png"
             alt="Findover Logo"
             width={80}
-            height={74.78}
+            height={75}
             onClick={() => onGotoElement("hero")}
           />
 

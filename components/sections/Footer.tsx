@@ -48,8 +48,8 @@ const Images = [
 const Footer = () => {
   return (
     <>
-      <div className="bg-[#4F75FB] w-full pt-12 pb-10">
-        <div className="container bg-[#4F75FB]">
+      <div className="bg-[#3C65FB] w-full pt-12 pb-10">
+        <div className="container bg-[#3C65FB]">
           <p className="text-center text-base md:text-lg mb-4">
             Findover.ai works with the world&apos;s best legal teams
           </p>

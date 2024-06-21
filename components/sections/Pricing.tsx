@@ -2,7 +2,7 @@ import { ArrowRight, Calendar, Loader } from "lucide-react";
 
 const Pricing = () => {
   return (
-    <div id="pricing" className="bg-[#4F75FB] py-20">
+    <div id="pricing" className="bg-[#3C65FB] py-20">
       <div className="container">
         <div className="max-w-7xl w-full ">
           <div className="flex w-full flex-col items-center text-white">
@@ -29,16 +29,16 @@ const Pricing = () => {
               </div>
               <div className="flex w-full flex-nowrap gap-3 justify-between mt-6 items-center">
                 <h1 className="text-2xl font-bold ">$4,499/m</h1>
-                <div className="h-[1px] w-full bg-[#4F75FB]" />
+                <div className="h-[1px] w-full bg-[#3C65FB]" />
                 <p className="text-stone-500 text-sm whitespace-nowrap">
                   Paid monthly
                 </p>
               </div>
-              <div className="flex justify-between items-center text-white mt-10 rounded px-4 py-3 bg-[#4F75FB] hover:bg-[#4F75FB]/90 transition-color duration-500 cursor-pointer">
+              <div className="flex justify-between items-center text-white mt-10 rounded px-4 py-3 bg-[#3C65FB] hover:bg-[#3C65FB]/90 transition-color duration-500 cursor-pointer">
                 <h1>Get Started</h1>
                 <ArrowRight size={20} />
               </div>
-              <div className="h-[1px] w-full my-8 bg-[#4F75FB]" />
+              <div className="h-[1px] w-full my-8 bg-[#3C65FB]" />
               <div>
                 <h1 className="font-semibold mb-4">What&apos;s included</h1>
                 <ul className="flex flex-col gap-2 text-sm xl:text-base">
@@ -77,16 +77,16 @@ const Pricing = () => {
               </div>
               <div className="flex w-full flex-nowrap gap-3 justify-between mt-6 items-center">
                 <h1 className="text-2xl font-bold ">$3,999/m</h1>
-                <div className="h-[1px] w-full bg-[#4F75FB]" />
+                <div className="h-[1px] w-full bg-[#3C65FB]" />
                 <p className="text-stone-500 text-sm whitespace-nowrap">
                   Paid monthly
                 </p>
               </div>
-              <div className="flex justify-between items-center text-white mt-10 rounded px-4 py-3 bg-[#4F75FB] hover:bg-[#4F75FB]/90 transition-color duration-500 cursor-pointer">
+              <div className="flex justify-between items-center text-white mt-10 rounded px-4 py-3 bg-[#3C65FB] hover:bg-[#3C65FB]/90 transition-color duration-500 cursor-pointer">
                 <h1>Get Started</h1>
                 <ArrowRight size={20} />
               </div>
-              <div className="h-[1px] w-full my-8 bg-[#4F75FB]" />
+              <div className="h-[1px] w-full my-8 bg-[#3C65FB]" />
               <div>
                 <h1 className="font-semibold mb-4">What&apos;s included</h1>
                 <ul className="flex flex-col gap-2 text-sm xl:text-base">
@@ -106,11 +106,11 @@ const Pricing = () => {
                     <span className="text-xs">✦</span>
                     <p>Easy creadit card payments</p>
                   </li>
-                  <li className="flex gap-3 items-center text-[#4F75FB]">
+                  <li className="flex gap-3 items-center text-[#3C65FB]">
                     <span className="text-xs">✦</span>
                     <p>
                       High-end marketing visuals{" "}
-                      <span className="p-1 ml-2 bg-[#4F75FB] text-white text-[10px] rounded uppercase bg-">
+                      <span className="p-1 ml-2 bg-[#3C65FB] text-white text-[10px] rounded uppercase bg-">
                         new
                       </span>
                     </p>
@@ -129,7 +129,7 @@ const Pricing = () => {
                     you.
                   </p>
                 </div>
-                <div className="rounded flex justify-center items-center gap-2 text-white bg-[#4F75FB] hover:bg-[#4F75FB]/90 transition duration-500 xl:w-full px-4 py-3 cursor-pointer whitespace-nowrap">
+                <div className="rounded flex justify-center items-center gap-2 text-white bg-[#3C65FB] hover:bg-[#3C65FB]/90 transition duration-500 xl:w-full px-4 py-3 cursor-pointer whitespace-nowrap">
                   <h1>Book a 10-min call</h1>
                   <Calendar size={16} />
                 </div>

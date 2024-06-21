@@ -48,7 +48,7 @@ const Faq = () => {
           <AccordionItem
             key={i}
             value={`faq-${i}`}
-            className="border-none bg-[#4F75FB] rounded py-4 px-6 "
+            className="border-none bg-[#3C65FB] rounded py-4 px-6 "
           >
             <AccordionTrigger>
               <h3 className="text-start font-semibold text-base md:text-lg">

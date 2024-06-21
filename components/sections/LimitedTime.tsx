@@ -1,5 +1,4 @@
-import { Button } from "../ui/button";
-import { Input } from "../ui/input";
+import { EmailForm } from "../EmailForm";
 
 const LimitedTime = () => {
   return (
@@ -13,18 +12,8 @@ const LimitedTime = () => {
             Sign-Up for Free Access!
           </p>
         </div>
-        <div className="w-full md:w-1/2 flex space-x-4 justify-center items-center mt-8 md:mt-0">
-          <Input
-            type="email"
-            placeholder="Enter your email"
-            className="w-full md:w-1/2"
-          />
-          <Button
-            size={"lg"}
-            className="bg-[#4F75FB] text-white hover:bg-white hover:text-black font-semibold"
-          >
-            Sign-up
-          </Button>
+        <div className="w-full md:w-[70%] lg:w-1/2 mt-8">
+          <EmailForm />
         </div>
       </div>
     </section>

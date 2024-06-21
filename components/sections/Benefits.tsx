@@ -17,7 +17,7 @@ const Benefits = () => {
           <h1 className="text-3xl lg:text-6xl font-semibold mt-6 md:mt-0 mb-4 xl:mb-8 w-[90%]">
             No More Traditional Underwriting Reports!
           </h1>
-          <div className="text-lg xl:text-xl space-y-4 w-[90%]">
+          <div className="text-base xl:text-xl space-y-4 w-[90%]">
             <p>
               Ask the chatbot a question about your target property in any
               section of the digital underwriting report.
@@ -34,7 +34,7 @@ const Benefits = () => {
           <h1 className="text-3xl lg:text-6xl font-semibold mt-6 md:mt-0 mb-4 xl:mb-8 w-[90%]">
             No More Wasted Time and Money!
           </h1>
-          <div className="text-lg xl:text-xl space-y-4 w-[90%]">
+          <div className="text-base xl:text-xl space-y-4 w-[90%]">
             <p>
               Upload unstructured property documents, including rent rolls,
               financial statements, inspection reports, conversation summaries,
@@ -70,7 +70,7 @@ const Benefits = () => {
           <h1 className="text-3xl lg:text-6xl font-semibold mt-6 md:mt-0 mb-4 xl:mb-8">
             Maximize Opportunities, Minimize Risks!
           </h1>
-          <div className="text-lg xl:text-xl w-[90%]">
+          <div className="text-base xl:text-xl w-[90%]">
             <p>
               Leveraging the latest A.I. capabilities, your underwriting
               automation will identify opportunities and risks that even the

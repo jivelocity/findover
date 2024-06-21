@@ -17,7 +17,7 @@ const Hero = () => {
         <Button
           onClick={() => onGotoElement("download")}
           size={"lg"}
-          className="bg-[#4F75FB] mt-8 text-white hover:bg-white hover:text-black font-semibold"
+          className="bg-[#3C65FB] mt-8 text-white hover:bg-white hover:text-black font-semibold"
         >
           Get Started
         </Button>
